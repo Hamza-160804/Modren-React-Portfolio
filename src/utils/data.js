@@ -1,0 +1,97 @@
+// Projects, skills, and testimonials data for portfolio
+
+export const projects = [
+  {
+    id: 1,
+    title: "Quiz Application",
+    description:
+      "Interactive quiz application with dynamic question loading and score tracking.",
+    tech: ["HTML", "CSS", "JavaScript", "Context API"],
+    image: "quizimg",
+    github: "https://github.com/Hamza-160804/Multiple-choice.github.io",
+    live: "#",
+    details: [
+      "Developed using HTML, CSS, and JavaScript with Context API for state management",
+      "Interactive quiz functionality with dynamic question loading",
+      "Implemented a score tracker and timer for each question",
+      "Designed a responsive and user-friendly interface for mobile and desktop",
+    ],
+  },
+  {
+    id: 2,
+    title: "Personal Portfolio",
+    description:
+      "A personal portfolio project built with HTML and CSS focusing on modern UI/UX design.",
+    tech: ["HTML5", "CSS3", "Responsive Design", "Animations"],
+    image: "portfolioimg",
+    github: "https://github.com/Hamza-160804/Portfolio.github.io",
+    live: "#",
+    details: [
+      "Created using HTML5 and CSS3, focusing on modern UI/UX design",
+      "Fully responsive layout with smooth CSS animations",
+      "Includes sections: About Me, Skills, Projects, and Contact",
+      "Emphasized accessibility and minimalist design principles",
+      "Easily customizable structure for future updates",
+    ],
+  },
+  {
+    id: 3,
+    title: "Weather Application",
+    description:
+      "A weather application built using React and OpenWeatherMap API with real-time data.",
+    tech: ["React", "OpenWeatherMap API", "Dark Mode", "Responsive Design"],
+    image: "weatherImg",
+    github: "https://github.com/Hamza-160804/weather-app",
+    live: "#",
+    details: [
+      "Built with React and integrated the OpenWeatherMap API",
+      "Fetches and displays real-time weather data for global cities",
+      "Features search functionality, dark mode, and responsive design",
+      "Displays weather metrics like temperature, humidity, and forecast",
+      "Implemented error handling for invalid or empty inputs",
+      "Optimized code for performance and accessibility",
+    ],
+  },
+];
+
+export const skills = [
+  { name: "HTML", level: 80, icon: "Code2", color: "#e34c26" },
+  { name: "CSS", level: 70, icon: "Code2", color: "#264de4" },
+  { name: "JavaScript", level: 50, icon: "Code2", color: "#f0db4f" },
+  { name: "React", level: 45, icon: "Atom", color: "#61dafb" },
+  { name: "Python", level: 30, icon: "TerminalSquare", color: "#4B8BBE" },
+  { name: "MongoDB", level: 50, icon: "Database", color: "#4DB33D" },
+  { name: "Adobe Illustrator", level: 40, icon: "Paintbrush", color: "#339933" },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Albangaa",
+    role: "Fiverr Client",
+    image:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    content:
+      "Hamza delivered exceptional work on our Logo design project. His attention to detail and creativity are outstanding. The project was completed on time and exceeded our expectations.",
+    rating: 4,
+  },
+  {
+    id: 2,
+    name: "Albangaa",
+    role: "Fiverr Client",
+    image:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    content:
+      "Working with Hamza was a great experience. He has strong technical skills and communicates effectively throughout the Document. Highly recommended for any MS Office project.",
+    rating: 4,
+  },
+  {
+    id: 3,
+    name: "Gulam",
+    role: "University Junior Batchmate",
+    image: "Gulamimg",
+    content:
+      "Hamza perfectly translated our designs into responsive, interactive web applications. His code quality is excellent and he's always open to feedback and improvements.",
+    rating: 5,
+  },
+]; 
