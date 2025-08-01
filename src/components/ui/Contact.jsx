@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import * as contactFallback from "../../utils/contact-fallback";
 
 export default function ContactModal({
